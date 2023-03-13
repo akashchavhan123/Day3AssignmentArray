@@ -13,7 +13,7 @@ public class ReverseOrder {
             System.out.println(a[i]);
         }
         System.out.println("reverse element");
-        for (int i =a.length-1;i>0;i--){
+        for (int i =a.length-1;i>=0;i--){
             System.out.println(a[i]);
         }
     }

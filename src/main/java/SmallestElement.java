@@ -14,12 +14,10 @@ public class SmallestElement {
             System.out.println(a[i]);
         }
         for (int i = 1;i<a.length;i++){
-            if (a[i]<min){
-                min = a[i];
-
-            }
-
-        } System.out.println("Smallest element is"+min);
+            if(min>a[i]);
+            min = a[i];
+        }
+        System.out.println("Smallest element is"+min);
 
     }
 }
